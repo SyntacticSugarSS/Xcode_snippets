@@ -3,25 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>shanred</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#name#&gt;
-</string>
+	<string>+ (instancetype)&lt;#name#&gt;{
+    static &lt;#class name#&gt; *&lt;#name#&gt; = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        &lt;#name#&gt; = [[&lt;#class name#&gt; alloc] init];
+    });
+    return &lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>609B07FD-2235-4DEA-AFC3-62B7F98118C8</string>
+	<string>819E4E58-DDB8-4F31-AA76-BE1E18A69813</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property</string>
+	<string>sharedMethod</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy</string>
+	<string>单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
