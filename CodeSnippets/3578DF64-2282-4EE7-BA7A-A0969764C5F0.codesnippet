@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#name#&gt;
-</string>
+	<string>-(void)&lt;#ButtonName#&gt;Clicked:(id)sender {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>609B07FD-2235-4DEA-AFC3-62B7F98118C8</string>
+	<string>3578DF64-2282-4EE7-BA7A-A0969764C5F0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property</string>
+	<string>ButtonAction</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy</string>
+	<string>Button</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@property</string>
+	<string>for</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#name#&gt;
-</string>
+	<string>for (int i = 0; i &lt; &lt;#array#&gt;.count; i ++) {
+    &lt;#statements#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>609B07FD-2235-4DEA-AFC3-62B7F98118C8</string>
+	<string>3B9F2BEE-DF94-413C-8497-09A7DE066B84</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property</string>
+	<string>code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy</string>
+	<string>遍历数组</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
