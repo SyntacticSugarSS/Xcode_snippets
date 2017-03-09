@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addTarget</string>
+	<string>[addTarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[&lt;#object#&gt; addTarget:self action:@selector(&lt;#ButtonName#&gt;Clicked:) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DF8DDE09-7BAA-4B02-990F-A33296C9ED11</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>code</string>
 	<key>IDECodeSnippetTitle</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

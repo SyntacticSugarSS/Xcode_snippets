@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSTimer</string>
+	<string>__weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSTimer scheduledTimerWithTimeInterval:&lt;#time#&gt; target:self selector:@selector(&lt;#methodName#&gt;) userInfo:nil repeats:YES];</string>
+	<string>__weak typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6F69BFEE-6E33-4602-9A3A-AE8DA2D4600C</string>
+	<string>B8FBC310-4D3A-418F-9482-ECB361316AD9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>code NSTimer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义定时器</string>
+	<string>weakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

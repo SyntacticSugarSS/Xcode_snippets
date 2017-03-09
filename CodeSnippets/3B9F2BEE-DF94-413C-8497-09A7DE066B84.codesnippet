@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B9F2BEE-DF94-413C-8497-09A7DE066B84</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>code</string>
 	<key>IDECodeSnippetTitle</key>
@@ -23,6 +23,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

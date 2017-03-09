@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSTimer</string>
+	<string>@property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSTimer scheduledTimerWithTimeInterval:&lt;#time#&gt; target:self selector:@selector(&lt;#methodName#&gt;) userInfo:nil repeats:YES];</string>
+	<string>@property (nonatomic, weak) id&lt;&lt;#delegate name#&gt;&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6F69BFEE-6E33-4602-9A3A-AE8DA2D4600C</string>
+	<string>5403D8E3-2960-418D-A7A9-B54E466CF634</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>code NSTimer</string>
+	<string>property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义定时器</string>
+	<string>delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
