@@ -6,7 +6,7 @@
 	<string>[NSTimer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[NSTimer scheduledTimerWithTimeInterval:&lt;#time#&gt; target:self selector:@selector(&lt;#methodName#&gt;) userInfo:nil repeats:YES];</string>
